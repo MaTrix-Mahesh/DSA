@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Array Traversing</title>
+</head>
+
+<body>
+<input type="text" id="inp" placeholder="Enter your value">
+<button id="btnn">Output</button>
+
+<script>
+let data = [9, 45, 1, 67, 23, 78, 56, 34, 12];
+document.getElementById("btnn").addEventListener("click", function () {
+    let input = document.getElementById("inp");
+    for (let i = 0; i < data.length; i++) {
+        if (data[i] === input) {
+            alert(`Your value ${input} is found at index ${i}`);
+            return;
+        }
+    }
+    alert("Value not found");
+});
+
+</script>
+
+</body>
+</html>
