@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<body>
+
+<input type="text" placeholder="search your element" id="search">
+<button onclick="LinearSearch()">Search</button>
+
+<p id="para"></p>
+
+<script>
+
+function LinearSearch(){
+
+let arr = [10,20,30,40,50,60,70,80,90,100,40];
+
+let element = Number(document.getElementById("search").value);
+
+let index = -1;
+
+for(let i=0;i<arr.length;i++){
+
+    if(arr[i] === element){
+        index = i;
+    }
+
+}
+
+if(index !== -1){
+document.getElementById("para").innerText =
+`element ${element} found at index ${index}`;
+}
+else{
+document.getElementById("para").innerText =
+"element not found";
+}
+
+}
+
+</script>
+
+</body>
+</html>
