@@ -6,8 +6,14 @@ let element = 35;
 
 
 for(let i = arr.length-1;i>=0;i--){
-    console.log(arr[i]);
+    //console.log(arr[i]);
     
-    if
+    if( i>= position){
+        arr[i+1] = arr[i];
+        if (i==position) {
+            arr[i]= element;
+        }
+    }
     
 }
+console.log(arr);
