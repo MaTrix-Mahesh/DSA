@@ -7,3 +7,5 @@ for (let i = position; i <= arr.length-1; i++) {
 }
 arr.length = arr.length-1
 console.log(arr);
+
+
