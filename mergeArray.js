@@ -24,3 +24,5 @@ let merge = arr1.concat(arr2)
 console.log(merge);
 
 */
+
+console.log("hello world");
