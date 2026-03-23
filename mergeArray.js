@@ -25,5 +25,4 @@ console.log(merge);
 
 */
 
-console.log("hello world");
-console.log("heliofipf");
+console.log("HKFHSJBJICBH");
