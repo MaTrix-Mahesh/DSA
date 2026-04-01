@@ -20,3 +20,6 @@ let newstr = str.split(" ").reverse()
 
 console.log(newstr);
 
+
+
+
