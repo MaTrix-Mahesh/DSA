@@ -6,17 +6,21 @@ let count =0
 for (let i = 0; i < n-1; i++) {
     let minIndex = i
     for (let j = i+1; j < n; j++) {
+
+        count++;
+        
         if (arr[minIndex] > arr[j]) {
             minIndex = j
         }
         
     }
-    count++;
+    
     let temp = arr[i]
     arr[i] = arr[minIndex]
     arr[minIndex] = temp
     
 }
+
 
 console.log(arr);
 console.log(count);
