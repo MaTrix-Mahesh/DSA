@@ -4,8 +4,6 @@ public class gradeCalculator {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-x
-
         System.out.println("enter your marks : ");
         int marks = sc.nextInt();
 
