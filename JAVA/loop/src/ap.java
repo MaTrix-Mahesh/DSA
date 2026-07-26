@@ -10,6 +10,7 @@ public class ap {
         for (int i = 2; i <= 3*n_term-1 ; i+=3) {
             System.out.print(i+ " ");
         }
+
     }
 }
 //ap -- 2,5,8,11,14,17...... n-term
