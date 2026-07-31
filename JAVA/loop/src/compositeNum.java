@@ -8,8 +8,8 @@ public class compositeNum {
         int n = sc.nextInt();
 
         for (int i = 2; i <= n-1; i++) {
-            if(n%2 ==0){
-                System.out.println(" compsite");
+            if(n%i ==0){
+                System.out.print(" compsite");
                 break;
             }
         }
