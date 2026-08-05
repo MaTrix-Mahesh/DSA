@@ -14,12 +14,12 @@ public class minmum {
             arr[i] = sc.nextInt();
         }
         // max
-        int max = arr[0];
+        int min = arr[0];
         for (int i = 1; i < size; i++) {
-            if (arr[i] > max){
-                max = arr[i];
+            if (arr[i] < min){
+                min = arr[i];
             }
         }
-        System.out.print(max +" ");
+        System.out.print(min +" ");
     }
 }
