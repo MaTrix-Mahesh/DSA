@@ -14,7 +14,7 @@ public class minmum {
             arr[i] = sc.nextInt();
         }
         // max
-        int min = arr[0];
+        int min = arr[0];//1,2,9,3,4,0
         for (int i = 1; i < size; i++) {
             if (arr[i] < min){
                 min = arr[i];
