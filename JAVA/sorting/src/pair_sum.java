@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class pair_sum {
 
     public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class pair_sum {
         int start = 0;
         int end = arr.length - 1;
         int target = 9;
+        Arrays.sort(arr);
 
         while (start < end) {
 
@@ -30,3 +33,9 @@ public class pair_sum {
         }
     }
 }
+
+// find a sum of pair of element equal to target element
+//Time Complexity = O(n log n)
+//
+//Space Complexity = O(1)
+//two pointers
