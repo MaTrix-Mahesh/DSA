@@ -9,6 +9,7 @@ public class first_accurance {
         int high = arr.length-1;
 
         int index_first = -1;
+
         while(low<high){
             int mid = (low+high)/2;
 
