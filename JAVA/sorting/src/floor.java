@@ -22,12 +22,10 @@ public class floor {
                 break;
             }
         }
-
         if (index != -1) {
             System.out.println("Floor = " + arr[index]);
             System.out.println("Index = " + index);
-        }
-        else {
+        } else {
             System.out.println("Floor does not exist");
         }
     }
